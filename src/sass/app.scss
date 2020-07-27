@@ -1,6 +1,13 @@
-// fonts
-@import '../assets/fonts/font-face';
+:root {
+  font-size: 14px;
+}
+
+* {
+  font-family: IRANSans, Kalameh, Roboto, PantonBlack;
+  direction: rtl;
+  text-align: right;
+}
 
 body {
-  font-family: IRANSans, Kalameh, Roboto, PantonBlack;
+  background-color: #263238;
 }
