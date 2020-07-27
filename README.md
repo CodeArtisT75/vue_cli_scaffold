@@ -5,14 +5,19 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### it`s better to install sass-cli  globally run:
 ```
-npm run serve
+npm install -g sass
 ```
 
-### Compiles and minifies for production
+### Compiles and hot-reloads for development (+ compile sass files)
 ```
-npm run build
+npm run dev
+```
+
+### Compiles and minifies for production (+ compile sass files)
+```
+npm run create
 ```
 
 ### Customize configuration
