@@ -1,0 +1,83 @@
+/*Iran Sans*/
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('iransans/IRANSans_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('iransans/IRANSans_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('iransans/IRANSans.ttf') format('truetype');
+}
+
+/*Kalameh*/
+@font-face {
+  font-family: Kalameh;
+  font-style: normal;
+  font-weight: 500;
+  src: url('kalameh/Kalameh_Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Kalameh;
+  font-style: normal;
+  font-weight: 400;
+  src: url('kalameh/Kalameh_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Kalameh;
+  font-style: normal;
+  font-weight: 200;
+  src: url('kalameh/Kalameh_Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Kalameh;
+  font-style: normal;
+  font-weight: normal;
+  src: url('kalameh/Kalameh_thin.ttf') format('truetype');
+}
+
+/* Panton Black */
+@font-face {
+  font-family: PantonBlack;
+  font-style: normal;
+  font-weight: 500;
+  src: url('pantonblack/PANTON-BLACKCAPS.OTF') format('opentype');
+}
+
+/* Roboto */
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  src: url('roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+
+.font-iransans {
+  font-family: IRANSans;
+}
+
+.font-kalameh {
+  font-family: Kalameh;
+}
+
+.font-roboto {
+  font-family: Roboto;
+}
+
+.font-Pantonblack {
+  font-family: PantonBlack;
+}

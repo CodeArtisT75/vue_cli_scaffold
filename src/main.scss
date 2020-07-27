@@ -1,5 +1,10 @@
+// Variables
 @import './sass/variables';
+// theme
 @import './sass/theme';
+// bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
+// bootstrap-vue
 @import '../node_modules/bootstrap-vue/src/index';
+// application styles
 @import './sass/app';
