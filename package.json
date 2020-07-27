@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "dev": "concurrently \"npm run serve\" \"sass --watch ./src/main.scss ./public/main.css\"",
-    "create": "sass ./src/main.scss:./public/main.css --style compressed && npm run build "
+    "create": "sass ./src/main.scss:./public/main.css --style compressed && npm run build ",
+    "css": "sass --watch ./src/main.scss ./public/main.css"
   },
   "dependencies": {
     "bootstrap-vue": "^2.15.0",
